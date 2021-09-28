@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Adatbázis SYSTEM "ne9jrl_adatbazis.dtd">
+
+<Adatbázis>
+	<Dolgozó>
+		<id></id>
+		<név></név>
+		<fizetés></fizetés>
+	</Dolgozó>
+</Adatbázis>

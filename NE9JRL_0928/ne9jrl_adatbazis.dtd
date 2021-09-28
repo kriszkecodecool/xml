@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Adatbázis (Dolgozó)>
+<!ELEMENT Dolgozó (id,név,fizetés)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT név (#PCDATA)>
+<!ELEMENT fizetés (#PCDATA)>
