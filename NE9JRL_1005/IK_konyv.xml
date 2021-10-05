@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xml>
+
+<Könyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="IK_konyvasd.xsd">
+	<könyv id="konyv_001">
+		<Cím>Excel 2019</Cím>
+		<Kiadásiév>2021</Kiadásiév>
+		<Kiadó>Taramix Kiadó KFT.</Kiadó>
+		<Szerző>Szabó Ildikó</Szerző>
+	</könyv>
+	<könyv id="konyv_002">
+		<Cím>Excel tippek - 100 praktikus tipp és trükk az Excel hatékony használatához</Cím>
+		<Kiadásiév>2021</Kiadásiév>
+		<Kiadó>Typotex Elektronikus Kiadó KFT.</Kiadó>
+		<Szerző>Bártfai Barnabás</Szerző>
+	</könyv>
+	<könyv id="konyv_003">
+		<Cím>Szövegbányászat és mesterséges intelligencia R-ben</Cím>
+		<Kiadásiév>2021</Kiadásiév>
+		<Kiadó>Taramix Kiadó KFT.</Kiadó>
+		<Szerző>Máté Ákos</Szerző>
+		<Szerző>Ring Orsolya</Szerző>
+		<Szerző>Sebők Miklós</Szerző>
+	</könyv>
+	
+</Könyvek>
