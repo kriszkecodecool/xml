@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xml>
+
+<Nevjegykartyak xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:SchemaLocation="IK_nevjegykartya.xsd">
+	<nevjegykartya>
+		<nev>Iváncsik Krisztián</nev>
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3532</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetem Utca</utca>
+				<hazszam>32</hazszam>
+			</cim>
+			<telefonszam>06701234567</telefonszam>
+			<weblap>http://uni-miskolc.hu</weblap>
+		</ceg>
+		<beosztas>Tanuló</beosztas>
+		<telefonszám>06701234567</telefonszám>
+		<email>teszt@uni-miskolc.hu</email>
+	</nevjegykartya>
+	
+	<nevjegykartya>
+		<nev>Kiss Béla</nev>
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3532</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetem Utca</utca>
+				<hazszam>32</hazszam>
+			</cim>
+			<telefonszam>06701234567</telefonszam>
+			<weblap>http://uni-miskolc.hu</weblap>
+		</ceg>
+		<beosztas>Tanító</beosztas>
+		<telefonszám>06701234567</telefonszám>
+		<email>staff@uni-miskolc.hu</email>
+	</nevjegykartya>
+	
+</Nevjegykartyak>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/IK_nevjegykartya" elementFormDefault="qualified">
+	<xs:simpleType name="nev">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="iranyitoszam">
+	  <xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="varos">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="utca">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="hazszam">
+	  <xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="telefonszam">
+	  <xs:restriction base="xs:decimal"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="weblap">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="beosztas">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="email">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	  <xs:complexType name="cimTipus">
+		  <xs:sequence>
+		    <xs:element name="iranyitoszam" type="iranyitoszam"/>
+		    <xs:element name="varos" type="varos"/>
+		    <xs:element name="utca" type="utca"/>
+		    <xs:element name="hasztam" type="hazszam"/>
+		  </xs:sequence>
+	  </xs:complexType>
+	  
+	  <xs:complexType name="cegTipus">
+		  <xs:sequence>
+		    <xs:element name="nev" type="nev"/>
+		    <xs:element name="cim" type="cimTipus"/>
+		    <xs:element name="telefonszam" type="telefonszam"/>
+		    <xs:element name="weblap" type="weblap"/>
+		  </xs:sequence>
+	  </xs:complexType>
+	  
+	  <xs:complexType name="nevjegykartyaTipus">
+		  <xs:sequence>
+		    <xs:element name="nev" type="nev"/>
+		    <xs:element name="ceg" type="cegTipus"/>
+		    <xs:element name="beosztas" type="beosztas"/>
+		    <xs:element name="telefonszam" type="telefonszam"/>
+		    <xs:element name="email" type="email"/>
+		  </xs:sequence>
+	  </xs:complexType>
+	  
+	  <xs:element name="nevjegykartyak">
+		<xs:complexType>
+			  <xs:sequence>
+			    <xs:element name="nevjegykartya" type="nevjegykartyaTipus"/>
+			  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+</xs:schema>
