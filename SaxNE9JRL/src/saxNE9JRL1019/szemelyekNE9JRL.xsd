@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/szemelyekNE9JRL" elementFormDefault="qualified">
+
+	<xs:simpleType name="nev">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="kor">
+	  <xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="varos">
+	  <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	  <xs:complexType name="szemelyTipus">
+		  <xs:sequence>
+		    <xs:element name="nev" type="nev"/>
+		    <xs:element name="kor" type="kor"/>
+		    <xs:element name="varos" type="varos"/>
+		  </xs:sequence>
+	  </xs:complexType>
+	  
+	  <xs:element name="szemelyek">
+		<xs:complexType>
+			  <xs:sequence>
+			    <xs:element name="szemely" type="szemelyTipus"/>
+			  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+</xs:schema>

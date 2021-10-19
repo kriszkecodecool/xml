@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT személyek (szemely+)>
+<!ELEMENT szemely (név,kor,város)>
+<!ELEMENT név (#PCDATA)>
+<!ELEMENT kor (#PCDATA)>
+<!ELEMENT város (#PCDATA)>
+
+<!ATTLIST szemely id ID #REQUIRED>
