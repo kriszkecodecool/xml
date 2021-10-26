@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+
+	<user id="1">
+		<firstname>Iváncsik</firstname>
+		<lastname>Krisztián</lastname>
+		<profession>Tanuló</profession>
+	</user>
+
+	<user id="2">
+		<firstname>Nagy</firstname>
+		<lastname>Béla</lastname>
+		<profession>Ács</profession>
+	</user>
+
+	<user id="3">
+		<firstname>Kovács</firstname>
+		<lastname>Gergely</lastname>
+		<profession>Programozó</profession>
+	</user>
+
+</users>
