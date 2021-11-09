@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<class>
+
+	<student id="1">
+		<vezeteknev>Iváncsik</vezeteknev>
+		<keresztnev>Krisztián</keresztnev>
+		<becenev>Krisz</becenev>
+		<kor>27</kor>
+	</student>
+
+	<student id="masodik">
+		<vezeteknev>Tóth</vezeteknev>
+		<keresztnev>Béla</keresztnev>
+		<becenev>Béci</becenev>
+		<kor>19</kor>
+	</student>
+
+	<student id="harmadik">
+		<vezeteknev>Kovács</vezeteknev>
+		<keresztnev>Sándor</keresztnev>
+		<becenev>Sanyi</becenev>
+		<kor>23</kor>
+	</student>
+	
+</class>
